@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson_11</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <ul class="header__nav nav">
+               <li class="nav__items"><a class="nav__link" href="#relative">Relative</a></li>
+               <li class="nav__items"><a class="nav__link" href="#absolute">Absolute</a></li>
+               <li class="nav__items"><a class="nav__link" href="#fixed">Fixed</a></li>
+               <li class="nav__items"><a class="nav__link" href="#sticky">Sticky</a></li>
+               <li class="nav__items"><a class="nav__link" href="#z-index">Z-index</a></li>
+               <li class="nav__items"><a href="#car" class="nav__link">Car</a></li>
+               <li class="nav__items"><a href="#exp" class="nav__link">Exp</a></li>
+            </ul>
+         </div>
+      </header>
+      <main class="main">
+         <div class="main__container">
+            <!-- Relative -->
+            <div id="relative" class="main__relative relative">
+               <div class="relative__items relative__items--green">Block green</div>
+               <div class="relative__items relative__items--purple">Block purple</div>
+               <div class="relative__items relative__items--red">Block red</div>
+            </div>
+            <!-- Absolute -->
+            <div id="absolute" class="main__absolute absolute">
+               <div class="absolute__items absolute__items--green">Block green</div>
+               <div class="absolute__items absolute__items--purple">Block purple</div>
+               <div class="absolute__items absolute__items--red">Block red</div>
+            </div>
+            <!-- Fixed -->
+            <div id="fixed" class="main__fixed fixed">
+               <h1 class="fixed__title">Position: fixed <span lang="uk">у нас</span> header=)</h1>
+            </div>
+            <!-- Stickey -->
+            <div id="sticky" class="main__sticky sticky">
+               <h2 class="sticky__title">Position: sticky <span lang="uk">буде працювати, якщо видалити або закоментувати у</span> wrapper - overflow: hidden; =)</h2>
+               <div class="sticky__items sticky__items--green">Block green</div>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa eum rem recusandae laboriosam quae ab explicabo debitis reiciendis commodi quo ratione harum beatae ipsum voluptatum a itaque, eligendi, exercitationem at?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, culpa totam. Atque molestiae, deserunt saepe consequuntur placeat assumenda dolorum debitis, quis fugit tempora dolorem! Culpa in blanditiis ea tenetur voluptate?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti magni consequatur animi repellendus sunt, quo autem atque? Perspiciatis quidem quasi ipsam. Delectus repudiandae iusto odit cumque sequi voluptatibus eum a. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero molestiae nobis suscipit facilis nesciunt dolores esse aliquid, officia pariatur dicta laboriosam adipisci doloremque explicabo repellat perspiciatis hic. Excepturi, impedit fuga.</p>
+               <div class="sticky__items sticky__items--purple">Block purple</div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi autem fugit assumenda laudantium quae repellendus ab, hic consequatur aspernatur aut quo ducimus ex ipsam cumque sint nemo tenetur ad tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tenetur esse deserunt itaque dolor non perspiciatis aspernatur totam ea. Debitis dolore officia dolor veniam, neque totam dolores cupiditate vel architecto!</p>
+               <div class="sticky__items sticky__items--red">Block red</div>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi enim eos sed nulla ad error reprehenderit facilis placeat, laborum odit. In ut voluptas quos repellat commodi perferendis pariatur, iste doloremque.</p>
+               <div class="sticky__items sticky__items--violet">Block violet</div>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, voluptas adipisci tempora accusamus sit maxime perferendis soluta iste tempore fugiat! Provident, fugiat a. Quos aut totam vero distinctio voluptatibus impedit!
+               Aperiam quo, dolor accusantium similique expedita rerum veritatis tenetur necessitatibus. Molestiae magnam at voluptas exercitationem error iusto unde iure! Adipisci nulla vel maxime eligendi soluta distinctio sapiente reprehenderit quas quasi?
+               Alias odit quia suscipit quos saepe, neque unde officia voluptas nam ratione, quam possimus maxime a architecto ut aspernatur in eligendi aliquam sequi, eius sapiente nostrum. In distinctio maiores quae?
+               Illum quod voluptatem eaque natus, possimus optio at ullam error recusandae eveniet, doloremque mollitia similique iusto laborum eos in illo non beatae deleniti amet aspernatur placeat? Neque, voluptate dolores! Expedita!</p>
+            </div>
+            <!-- Z-index -->
+            <div id="z-index" class="main__z-index z-index">
+               <h2 class="z-index__title">Z-index</h2>
+               <div class="z-index__items z-index__items--green">One green</div>
+               <div class="z-index__items z-index__items--purple">Two purple</div>
+               <div class="z-index__items z-index__items--red">Free red</div>
+            </div>
+            <!-- Car -->
+            <div id="car" class="main__car car">
+               <div class="car__main">
+                  <div class="car__me-in"></div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__container">
+            <div id="exp" class="footer__exp exp">
+               <ul class="exp__list">
+                  <li class="exp__items">A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
+                  <li class="exp__items">Vulputate placerat amet pulvinar lorem nisl.</li>
+                  <li class="exp__items">Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
+                  <li class="exp__items">Etiam duis lobortis in fames ultrices commodo nibh.</li>
+                  <li class="exp__items">Fringilla in nec risus congue venenatis pretium posuere nec.</li>
+                  <li class="exp__items">Cursus eu pretium, vulputate tempus quam massa sed at.</li>
+               </ul>
+            </div>
+         </div> 
+      </footer>
+   </div>
+</body>
+</html>
